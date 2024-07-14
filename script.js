@@ -1,3 +1,5 @@
+// script.js
+
 document.addEventListener("DOMContentLoaded", function() {
     // Example code to handle adding mock interviews
     const addButton = document.querySelector(".add-button");
