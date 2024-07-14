@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Register</title>
+    <link rel="stylesheet" href="logincss.css">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="login-container">
+            <h2>AI INTERVIEW MOCKER</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="#" id="register-link">Register here</a></p>
+                    <p><a href="#" id="forgot-password-link">Forgot Password?</a></p>
+                </div>
+            </form>
+            
+            <form id="register-form" style="display: none;">
+                <h3>Register New Account</h3>
+                <input type="text" id="new-username" placeholder="New Username" required>
+                <input type="password" id="new-password" placeholder="New Password" required>
+                <button type="submit">Register</button>
+                <div class="register-option">
+                    <p>Already have an account? <a href="#" id="login-link">Login here</a></p>
+                </div>
+            </form>
+            
+            <form id="forgot-password-form" style="display: none;">
+                <h3>Reset Password</h3>
+                <input type="text" id="reset-username" placeholder="Username" required>
+                <button type="submit">Reset Password</button>
+                <div class="reset-option">
+                    <p>Remembered your password? <a href="#" id="back-to-login-link">Login here</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="loginjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4285f4;
+  padding: 10px 20px;
+}
+
+.brand {
+  font-size: 24px;
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.login-info {
+  display: flex;
+  align-items: center;
+}
+
+.login-info a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.interview-box {
+  border: 2px dashed #4285f4;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 25%; /* Adjusted width */
+  height: 5%; /* Adjusted height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-button:hover {
+  background-color: #357ae8;
+}
+
+.previous-interviews {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
